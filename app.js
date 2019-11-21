@@ -26,7 +26,6 @@ app.get('/', (req, res) => {
   res.send("Hello from Appsody!");
 });
 
-
 app.get('/tasklist', passport.authenticate('mobilefirst-strategy', {
     session: false,
     scope: 'accessRestricted'
