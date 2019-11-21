@@ -1,0 +1,2 @@
+project-name: tasklist
+stack: dev.local/mobile-nodejs:SNAPSHOT
